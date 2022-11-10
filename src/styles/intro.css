@@ -1,0 +1,36 @@
+
+.intro {
+  padding-top: 60px;
+}
+
+.intro__floating-image {
+  position: absolute;
+  left: 0;
+  top: -50px;
+}
+.intro__relative {
+  position: relative;
+}
+
+.intro__title {
+  padding-left: 400px;
+  font-family: Comfortaa;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1px;
+  text-align: left;
+  padding-top: 67px;
+}
+
+.intro__title .mark {
+  font-weight: 700;
+  color: rgba(124, 77, 255, 1);
+}
+.intro__links {
+  margin-top: 20px;
+  padding-left: 400px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+}

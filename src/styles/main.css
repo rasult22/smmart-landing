@@ -27,4 +27,7 @@ img {
   background: #F4F2FF;
 }
 
+
 @import './app-layout.css';
+@import './app-menu.css';
+@import './intro.css';

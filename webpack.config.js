@@ -53,18 +53,18 @@ module.exports = {
         //     return "kk-KZ/[name][ext]";
         //   }, 
         // },
-        { 
-          from: 'src/root/*',
-          to({ context, absoluteFilename }) {
-            return "[name][ext]";
-          }, 
-        },
-        { 
-          from: 'src/root/.github/workflows/*',
-          to({ context, absoluteFilename }) {
-            return ".github/workflows/[name][ext]";
-          }, 
-        }
+        // { 
+        //   from: 'src/root/*',
+        //   to({ context, absoluteFilename }) {
+        //     return "[name][ext]";
+        //   }, 
+        // },
+        // { 
+        //   from: 'src/root/.github/workflows/*',
+        //   to({ context, absoluteFilename }) {
+        //     return ".github/workflows/[name][ext]";
+        //   }, 
+        // }
       ]
     }),
     new MiniCssExtractPlugin({filename: 'main.css'})

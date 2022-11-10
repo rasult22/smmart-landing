@@ -1,0 +1,39 @@
+.app-header {
+  display: flex;
+  align-items: center;
+}
+.app-header__nav {
+  width: 100%;
+}
+
+.app-header__locale-switcher {
+  margin-left: auto;
+}
+
+/*
+ menu 
+*/
+
+.app-menu {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.app-menu__item a {
+  padding: 0 15px;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #CFCFCF;
+  text-decoration: none;
+}
+.app-menu__item a:hover {
+  color: #263238;
+  cursor: pointer;
+  transition: color .4s ease;
+}

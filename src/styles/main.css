@@ -30,6 +30,9 @@ img {
 .mark {
   color: rgba(124, 77, 255, 1);
 }
+.mark-blue {
+  color: #448AFF;
+}
 .bold {
   font-weight: 700;
 }
@@ -43,3 +46,4 @@ img {
 @import './intro.css';
 @import './advantages.css';
 @import './why-we.css';
+@import './bonuses.css';

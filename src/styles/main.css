@@ -27,7 +27,19 @@ img {
   background: #F4F2FF;
 }
 
+.mark {
+  color: rgba(124, 77, 255, 1);
+}
+.bold {
+  font-weight: 700;
+}
+.relative {
+  position: relative;
+}
+
 
 @import './app-layout.css';
 @import './app-menu.css';
 @import './intro.css';
+@import './advantages.css';
+@import './why-we.css';

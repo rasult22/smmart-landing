@@ -13,3 +13,13 @@
 .app-header__locale-switcher {
   margin-left: auto;
 }
+.app-footer {
+  display: flex;
+  min-height: 500px;
+  background-color: #448AFF;
+}
+
+.app-footer__text {
+  color: #fff;
+  margin: auto auto 85px auto
+}

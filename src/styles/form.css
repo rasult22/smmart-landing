@@ -1,0 +1,70 @@
+.form {
+  padding: 50px 40px;
+  border-radius: 15px;
+  left: 50%;
+  top: -265px;
+  transform: translateX(-50%);
+  max-width: 580px;
+  position: absolute;
+  background-color: #fff;
+}
+.form__wrapper {
+  position: relative;
+}
+
+.form__title {
+  font-family: Comfortaa;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.form__title > svg {
+  margin-left: 15px;
+}
+
+.form__text {
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-top: 11px;
+}
+.form__inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__input {
+  width: 60%;
+  padding: 20px 26px;
+  border-radius: 34px;
+  border: 3px solid #448AFF;
+  margin-top: 16px;
+}
+.form__input::placeholder {
+  color: #CFCFCF;
+}
+
+.form__input--one {}
+.form__input--two {}
+
+.form__btn {
+  margin-top: 33px;
+  background: #448AFF;
+  border-radius: 34.5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border: 1px solid transparent;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: center;
+}

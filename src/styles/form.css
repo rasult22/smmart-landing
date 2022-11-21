@@ -49,11 +49,22 @@
 .form__input::placeholder {
   color: #CFCFCF;
 }
+.form__error {
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-left: 25px;
+  color:#FF2372;
+}
 
 .form__input--one {}
 .form__input--two {}
 
 .form__btn {
+  cursor: pointer;
   margin-top: 33px;
   background: #448AFF;
   border-radius: 34.5px;
@@ -61,6 +72,24 @@
   text-transform: uppercase;
   padding: 15px 25px;
   border: 1px solid transparent;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.form__success {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.form__success svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.form__success-text {
+  margin-top: 32px;
   font-family: Comfortaa;
   font-size: 20px;
   font-weight: 400;

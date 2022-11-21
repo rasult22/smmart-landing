@@ -1,0 +1,24 @@
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.lang-switcher__item {
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 10px 17px;
+  border-radius: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.lang-switcher__item--active {
+  background-color: #7C4DFF;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 25px;
+}

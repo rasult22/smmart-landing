@@ -14,7 +14,8 @@
   padding: 10px 17px;
   border-radius: 25px;
   margin-left: 10px;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: not-allowed!important;
 }
 .lang-switcher__item--active {
   background-color: #7C4DFF;

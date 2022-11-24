@@ -50,6 +50,7 @@
   color: #CFCFCF;
 }
 .form__error {
+  display: none;
   font-family: Comfortaa;
   font-size: 20px;
   font-weight: 400;

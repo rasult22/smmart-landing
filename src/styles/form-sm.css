@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+  .form {
+    padding-bottom: 0;
+  }
+  .form__wrapper {
+  }
+  .form__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .form__title > svg {
+  }
+  .form__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .form__inputs {
+  }
+  .form__input {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .form__input--two {
+    width: 90%;
+  }
+  .form__error {
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .form__btn {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 20px;
+  }
+  .form__success-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

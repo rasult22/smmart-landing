@@ -49,7 +49,7 @@ function formHandlerer () {
 
 function triggerValidationError () {
   const errorText = document.querySelector('.form__error')
-  errorText.style.display = 'inline'
+  errorText.style.opacity = 1
 }
 
 function submitSucceed () {

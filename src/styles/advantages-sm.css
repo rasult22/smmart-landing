@@ -12,9 +12,11 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -1px;
+    padding-bottom: 20px;
   }
   .advantage {
     align-items: flex-start;
+    margin-bottom: 25px;
   }
   .advantage__logo {
 

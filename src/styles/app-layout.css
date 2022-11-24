@@ -40,4 +40,10 @@
   .app-header__locale-switcher {
     display: none;
   }
+  .app-footer {
+    min-height: 400px;
+  }
+  .app-footer__text {
+    font-size: 16px;
+  }
 }

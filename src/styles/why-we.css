@@ -35,6 +35,9 @@
   letter-spacing: -1px;
   text-align: left;
 }
+.why-item__inner-title {
+  display: none;
+}
 .why-we__wrapper {
   display: flex;
   margin-top: 25px;

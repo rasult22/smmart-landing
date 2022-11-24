@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+  .why-we {
+    padding: 30px 40px;
+  }
+  .why-we .wrapper::before  {
+    display: none;
+  }
+  .why-we .wrapper::after  {
+    display: none;
+  }
+
+  .why-we__title {
+    display: none;
+  }
+  .why-item__inner-title {
+    display: block;
+    font-family: Comfortaa;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding-bottom: 40px;
+  }
+  .why-we__wrapper {
+    flex-wrap: wrap;
+  }
+  .why-we__content {
+    padding: 26px 30px;
+    margin-right: 0;
+  }
+  .why-we__illustration svg {
+    width: 240px;
+    height: 571px;
+  }
+  .why-we__illustration {
+    margin-top: 22px;
+    padding: 36px 27px 0;
+  }
+  .why-item {
+  }
+  .why-item__switch {
+    margin-right: 15px;
+  }
+  .why-item__title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
+  .why-item__content {
+  }
+  .why-item__text{
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
+}

@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+  .bonuses {
+    padding: 50px 40px 20px;
+  }
+  .bonuses__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .bonus {
+  }
+  .bonus__icon svg{
+    width: 60px;
+  }
+  .bonus__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

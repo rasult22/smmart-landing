@@ -25,3 +25,19 @@
   color: #fff;
   margin: auto auto 85px auto
 }
+
+
+@media (max-width: 600px) {
+  .app-header {
+    padding: 30px;
+  }
+  .app-header__logo {
+    padding: 0;
+  }
+  .app-header__nav {
+    display: none;
+  }
+  .app-header__locale-switcher {
+    display: none;
+  }
+}

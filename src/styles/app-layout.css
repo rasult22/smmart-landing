@@ -9,6 +9,9 @@
 .app-header__logo {
   padding-left: 60px;
 }
+.app-header__burger {
+  display: none;
+}
 
 .app-header__locale-switcher {
   margin-left: auto;
@@ -28,6 +31,10 @@
 
 
 @media (max-width: 600px) {
+  .app-header__burger {
+    display: block;
+    margin-left: auto;;
+  }
   .app-header {
     padding: 30px;
   }

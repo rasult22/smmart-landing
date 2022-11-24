@@ -53,3 +53,5 @@ img {
 @import './form.css';
 @import './how-does-it-work.css';
 @import './lang-switcher.css';
+
+@import './intro-sm.css';

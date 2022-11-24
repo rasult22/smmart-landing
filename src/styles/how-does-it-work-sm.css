@@ -1,0 +1,84 @@
+@media (max-width: 600px) {
+  .how-does-it-work {
+    padding: 20px 40px 0;
+
+  }
+  .how-does-it-work__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .how-does-it-work__steps {
+  }
+
+
+  .steps {
+    text-align: left;
+  }
+  .steps__wrapper {
+  }
+  .steps--purple {
+    margin: 20px -40px 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .steps__title {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .steps__title--blue {
+    background-color: transparent;
+    color: #263238;
+    padding: 0;
+  }
+  .steps__title--purple {
+  }
+
+  .step {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .step--reverse {
+    justify-content: flex-end;
+  }
+  .step__image {
+    order: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .step__content {
+    order: 1;
+    margin-left: 0;
+  }
+  .step__content--reverse {
+    margin-right: 0;
+  }
+  .step__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .step__title--purple {
+  }
+  .step__text {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .step__arrow {
+    display: none;
+  }
+  .step__arrow-sm {
+    display: block;
+    order: 3;
+    margin-left: auto;
+  }
+  .step__arrow-sm--reverse {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+}

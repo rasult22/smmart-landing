@@ -22,3 +22,8 @@
   cursor: pointer;
   transition: color .4s ease;
 }
+
+
+.app-menu-sm {
+  display: none;
+}

@@ -15,8 +15,6 @@
 
 .app-header__locale-switcher {
   margin-left: auto;
-  opacity: 0.2;
-  cursor: not-allowed!important;
 }
 .app-footer {
   display: flex;
@@ -43,6 +41,10 @@
   }
   .app-header__nav {
     display: none;
+  }
+  .app-header__locale-switcher--sm {
+    display: block;
+    width: 100%;
   }
   .app-header__locale-switcher {
     display: none;

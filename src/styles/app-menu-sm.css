@@ -1,0 +1,23 @@
+
+@media (max-width: 600px) {
+  .app-menu--sm {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 38px;
+  }
+  .app-menu-sm {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 500;
+  }
+  .app-menu-sm__header {
+    padding: 50px 38px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app-menu-sm__header svg {
+    margin-left: auto;
+  }
+}

@@ -1,4 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap');
 @import '~normalize.css';
 .wrapper {
   max-width: 1184px;
@@ -7,8 +12,14 @@
 * {
   color: #263238;
   box-sizing: border-box;
-  font-family: Comfortaa;
   font-weight: 400;
+}
+
+.ff-comforta {
+  font-family: Comfortaa;
+}
+.ff-roboto-flex {
+  font-family: 'Roboto Flex', sans-serif;
 }
 
 .pointer {
@@ -36,9 +47,6 @@ img {
 .bold {
   font-weight: 700;
 }
-.relative {
-  position: relative;
-}
 .d-none {
   display: none;
 }
@@ -60,3 +68,6 @@ img {
 @import './bonuses-sm.css';
 @import './how-does-it-work-sm.css';
 @import './form-sm.css';
+@import './app-menu-sm.css';
+@import './error.css';
+
